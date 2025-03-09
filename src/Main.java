@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -66,7 +67,7 @@ public class Main {
         Internet net = new Internet();
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.println("1: Exibir pagina; 2: Adicionar nova aba; e 3: Atualizar pagina; 0: Sair");
+            System.out.println("1: Exibir página; 2: Adicionar nova aba; e 3: Actualizar página; 0: Sair");
             int app = scanner.nextInt();
             if (app == 1) {
                 net.exibirPagina();
